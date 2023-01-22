@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Recipes.HomepageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ghost_white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/ghost_white"
+            android:elevation="1dp">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:gravity="left"
+                android:text="@string/home_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/straightLine"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                android:alpha="0.1"
+                android:background="@color/black" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <RadioGroup
+                android:id="@+id/recipe_type_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/r_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/all"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_breakfast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/breakfast"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_lunch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/lunch"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_dinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/dinner"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/pizza"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_dessert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/dessert"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_curry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/curry"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/r_appetizer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg"
+                    android:backgroundTint="@color/blueIsh"
+                    android:button="@drawable/ic_baseline_circle_24"
+                    android:buttonTint="@color/blueIsh"
+                    android:checked="false"
+                    android:paddingEnd="25dp"
+                    android:text="@string/appetizer"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/ghost_white"
+                    tools:ignore="RtlSymmetry" />
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="5sp"
+            android:id="@+id/typeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            app:layoutManager="LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/recipe_type_list"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/emptyLL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/emptyHomeImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:src="@drawable/empty"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

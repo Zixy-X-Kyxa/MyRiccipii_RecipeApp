@@ -1,0 +1,76 @@
+<resources>
+    <!--Recipe Type for Filtering-->
+    <string name="all">All</string>
+    <string name="pizza">Pizza</string>
+    <string name="dessert">Desserts</string>
+    <string name="curry">Curry</string>
+    <string name="appetizer">Appetizers</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+
+    <string name="app_name">MyRiccipii</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="recover_my_password">Recover My Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">My Profile</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_an_account">Register an account</string>
+    <string name="username">Username</string>
+    <string name="add_new_recipe">Add new recipe</string>
+    <string name="image_holder">Image Holder</string>
+    <string name="details">Enter your new recipe details</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="description">Description</string>
+    <string name="type_of_recipes">Type of Recipes</string>
+    <string name="add">Add</string>
+    <string name="recipe_image">Upload your recipe photo</string>
+    <string name="ingredients">Add ingredients</string>
+    <string name="add_steps">Add Steps</string>
+    <string name="add_ingredient_to_your_new_recipe">Add ingredient to your new recipe</string>
+    <string name="add_steps_on_how_your_recipe_is_made">Add steps on how your recipe is made</string>
+    <string name="new_ingredients">New Ingredients</string>
+    <string name="add_new_ingredients">Add New Ingredients</string>
+    <string name="upload">Upload</string>
+    <string name="new_steps">New Steps</string>
+    <string name="require">Require</string>
+    <string name="add_new_steps">Add New Steps Description</string>
+    <string name="home_title">MyRiccipii Home</string>
+
+    <string name="ingredients_detail">Ingredients</string>
+    <string name="step_by_step">Step by Step</string>
+    <string name="setting">Setting</string>
+    <string name="my_recipe">My Recipe</string>
+    <string name="logout">Logout</string>
+    <string name="update_my_recipe">Update My Recipe</string>
+    <string name="update">Update</string>
+    <string name="made_by">Made By:</string>
+    <string name="click_to_add">Click to add New Recipes</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="back">Back</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="change">Change</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="recover">Recover</string>
+
+    <string name="permission_required">Camera access is required to display the camera preview.</string>
+    <string name="ok">OK</string>
+    <string name="permission_granted">Permission is granted. You can use the camera now.</string>
+    <string name="recipe_details">Recipe Details</string>
+    <string name="ingredient">Ingredients</string>
+    <string name="steps">Steps</string>
+
+    <string-array name="upload_options">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+</resources>

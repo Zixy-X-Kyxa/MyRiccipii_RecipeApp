@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Recipes.UpdateMyRecipeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/ghost_white"
+        android:elevation="1dp">
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:srcCompat="@drawable/ic_back_button_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:gravity="left"
+            android:text="@string/update_my_recipe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/recipe_image"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/blueIsh"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/update_RecipeImg"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/image_holder"
+                    android:cropToPadding="true"
+                    android:padding="1dp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/validateNullImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/red"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/update_uploadBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/black_bg_btn"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/upload"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/recipe_details"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/blueIsh"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/update_recipeNameV"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/recipe_name"
+                    app:boxStrokeColor="@color/blue"
+                    app:errorEnabled="true"
+                    app:errorIconDrawable="@null"
+                    app:helperText=""
+                    app:helperTextEnabled="true"
+                    app:hintTextColor="@color/blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/update_recipeNameET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/update_recipeDescV"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/description"
+                    app:boxStrokeColor="@color/blue"
+                    app:errorEnabled="true"
+                    app:errorIconDrawable="@null"
+                    app:helperText=""
+                    app:helperTextEnabled="true"
+                    app:hintTextColor="@color/blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/update_recipeDescET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:lines="5"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        android:scrollbars="vertical"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/update_recipeTypeV"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/type_of_recipes"
+                    app:boxStrokeColor="@color/blue"
+                    app:errorEnabled="true"
+                    app:errorIconDrawable="@null"
+                    app:helperText=""
+                    app:helperTextEnabled="true"
+                    app:hintTextColor="@color/blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/update_recipeTypeET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:padding="10dp"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/ingredient"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/blueIsh"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <!--                    <ImageView-->
+                    <!--                        android:id="@+id/addIngredientBtn"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginStart="15dp"-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:src="@drawable/ic_upload_add_24"-->
+                    <!--                        app:tint="@color/blueIsh" />-->
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/update_addIngredientV"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/add_new_ingredients"
+                    app:boxStrokeColor="@color/blue"
+                    app:errorEnabled="true"
+                    app:errorIconDrawable="@null"
+                    app:helperText=""
+                    app:helperTextEnabled="true"
+                    app:hintTextColor="@color/blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/update_addIngredientET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:lines="10"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        android:scrollbars="vertical"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/ingredientInfo"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="20dp"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="@string/add_ingredient_to_your_new_recipe"-->
+                <!--                    android:textAlignment="textStart"-->
+                <!--                    android:textColor="@color/red"-->
+                <!--                    android:textSize="15sp"-->
+                <!--                    android:visibility="gone" />-->
+
+                <!--                <LinearLayout-->
+                <!--                    android:id="@+id/addIngredientLL"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:orientation="vertical"/>-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/steps"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/blueIsh"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <!--                    <ImageView-->
+                    <!--                        android:id="@+id/addStepsBtn"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginStart="15dp"-->
+                    <!--                        android:padding="5dp"-->
+                    <!--                        android:src="@drawable/ic_upload_add_24"-->
+                    <!--                        app:tint="@color/blueIsh" />-->
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/update_addStepV"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/add_new_steps"
+                    app:boxStrokeColor="@color/blue"
+                    app:errorEnabled="true"
+                    app:errorIconDrawable="@null"
+                    app:helperText=""
+                    app:helperTextEnabled="true"
+                    app:hintTextColor="@color/blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/update_addStepET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:lines="10"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        android:scrollbars="vertical"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/stepsInfo"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="20dp"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="@string/add_steps_on_how_your_recipe_is_made"-->
+                <!--                    android:textAlignment="textStart"-->
+                <!--                    android:textColor="@color/red"-->
+                <!--                    android:textSize="15sp"-->
+                <!--                    android:visibility="gone" />-->
+
+                <!--                <LinearLayout-->
+                <!--                    android:id="@+id/addStepsLL"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:orientation="vertical"/>-->
+
+                <Button
+                    android:id="@+id/update_RecipeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="100dp"
+                    android:background="@drawable/black_bg_btn"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/update"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

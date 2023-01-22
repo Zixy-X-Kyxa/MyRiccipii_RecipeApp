@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="types">
+        <item>Pizza</item>
+        <item>Desserts</item>
+        <item>Curry</item>
+        <item>Appetizers</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+</resources>

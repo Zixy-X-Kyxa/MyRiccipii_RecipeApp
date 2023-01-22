@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable-v24/button_bg.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable-v24/home_radio.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable-v24/ic_baseline_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable-v24/profile_picture_circle.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/black_login_btn.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/custom_eye.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_account_nav_icon.xml" value="0.2546875" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_back_button_24.xml" value="0.2546875" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.43671875" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2546875" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.2546875" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_closed_eye_24.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_opened_eye_24.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/ic_upload_add_24.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/drawable/upload_img_bg.xml" value="0.2703125" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/activity_forget_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/activity_recipe_list.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/activity_register.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/drop_down_list.xml" value="0.2234375" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_add_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_add_new_recipe.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_change_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_homepage.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_recipe_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_recipe_type.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_recipe_types.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_update_my_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/fragment_view_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/my_recipe_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/new_ingredient_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/new_ingredient_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/new_steps_row.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/layout/recipe_type_list.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioKotlin/MyRiccipii/app/src/main/res/menu/btm_nav.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

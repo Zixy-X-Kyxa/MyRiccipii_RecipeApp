@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "606281013753",
+    "project_id": "myriccipii",
+    "storage_bucket": "myriccipii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606281013753:android:6e9b0b3c024fbdd9818528",
+        "android_client_info": {
+          "package_name": "com.example.myriccipii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606281013753-l7re1ibflo6kdvbtu5kfflv9u6a1crif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myriccipii",
+            "certificate_hash": "65b613ff76cd07d8351613b58034702e4b490a96"
+          }
+        },
+        {
+          "client_id": "606281013753-an9cejbol48035fo1fu1oui43n82evko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFodJiIzltVMEZcfWr_VNT7lC1AWwMh2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606281013753-an9cejbol48035fo1fu1oui43n82evko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
